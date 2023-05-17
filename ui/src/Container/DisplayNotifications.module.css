@@ -1,9 +1,10 @@
-.h2 {
-  margin-top: 100px;
+.heading {
+  padding-top: 60px;
 }
 .container {
   display: flex;
   flex-direction: column;
+
   padding: 60px;
   gap: 20px;
   width: 620px;
@@ -16,5 +17,7 @@
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -26,7 +26,7 @@ function DisplayDonations() {
   return (
     <>
       {" "}
-      <h2>DONACIJE</h2>
+      <h2 className={styles.heading}>DONACIJE</h2>
       <div className={styles.container}>
         <DonationForm refresh={refresh} />
 

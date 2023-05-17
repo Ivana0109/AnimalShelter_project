@@ -25,7 +25,7 @@ function DisplayNotifications() {
   return (
     <>
       {" "}
-      <h2>OBAVIJESTI</h2>
+      <h2 className={styles.heading}>OBAVIJESTI</h2>
       <div className={styles.container}>
         <NotificationForm refresh={refresh} />
         <NotificationsTable data={notifications} refresh={refresh} />

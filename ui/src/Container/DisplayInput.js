@@ -42,7 +42,7 @@ function DisplayInput() {
   return (
     <>
       {" "}
-      <h2>POPIS ŽIVOTINJA</h2>
+      <h2 className={styles.heading}>POPIS ŽIVOTINJA</h2>
       <div className={styles.container}>
         <div className={styles.radioContainer}>
           <RadioInput

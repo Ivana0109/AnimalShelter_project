@@ -1,5 +1,5 @@
-h2 {
-  margin-top: 90px;
+.heading {
+  padding-top: 60px;
 }
 .container {
   box-sizing: border-box;
@@ -10,7 +10,6 @@ h2 {
 }
 .radioContainer {
   display: flex;
-
   flex-direction: column;
   color: white;
   width: 200px;
@@ -29,7 +28,9 @@ h2 {
     flex-direction: column;
   }
   .radioContainer {
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .cardsContainer {
     justify-content: center;

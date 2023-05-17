@@ -5,16 +5,14 @@
 }
 .infoContainer {
   display: flex;
-  justify-content: space-around;
+
   gap: 80px;
   margin: 10px;
   background-color: rgb(0, 0, 0, 0.3);
 
   padding: 120px 140px 120px 140px;
 }
-.info {
-  width: 500px;
-}
+
 .img {
   width: 400px;
   height: 300px;
@@ -94,5 +92,33 @@
   .contact {
     flex-direction: column;
     gap: 40px;
+  }
+  .infoContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .img {
+    width: 200px;
+    height: 100px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .infoContainer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  .location {
+    padding: 10px;
+  }
+  .map {
+    width: 200px;
+    height: 200px;
   }
 }

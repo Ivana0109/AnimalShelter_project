@@ -1,10 +1,10 @@
-h3 {
-  color: black;
+.heading {
+  padding-top: 60px;
 }
 .form {
   display: flex;
   flex-direction: column;
-
+  width: 30vw;
   align-items: center;
   background-color: rgb(0, 0, 0, 0.3);
   border-radius: 1px;

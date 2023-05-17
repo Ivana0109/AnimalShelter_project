@@ -7,4 +7,12 @@
   align-items: center;
   gap: 20px;
 }
-/* background-image: linear-gradient(180deg, rgb(233, 200, 36) 20%, white 90%);*/
+
+.heading {
+  font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 15px;
+  }
+}

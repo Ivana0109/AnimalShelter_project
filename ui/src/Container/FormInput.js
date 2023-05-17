@@ -42,7 +42,7 @@ function FormInput() {
 
   return (
     <>
-      <h2>UNOS NOVE ŽIVOTINJE</h2>
+      <h2 className={styles.heading}>UNOS NOVE ŽIVOTINJE</h2>
       <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
         <div className={styles.container}>
           <h2>ISPUNI PODATKE: </h2>

@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className={styles.container}>
-      <div style={{ fontSize: "27px" }}>
+      <div className={styles.heading}>
         {" "}
         AZIL <div style={{ fontWeight: "lighter" }}>ZA ŽIVOTINJE</div>
       </div>
