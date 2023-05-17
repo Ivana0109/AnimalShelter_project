@@ -5,19 +5,14 @@ function Select({ title, options, setValue, chosenValue }) {
   return (
     <div className={styles.container}>
       <label>{title}:</label>
-      <select>
+      <select
+        value={chosenValue}
+        onChange={(e) => {
+          setValue(e.target.value);
+        }}
+      >
         {options.map((item) => {
-          return (
-            <option
-              value={item}
-              onChange={(e) => {
-                setValue(e.target.value);
-              }}
-              checked={chosenValue === item}
-            >
-              {item}
-            </option>
-          );
+          return <option>{item}</option>;
         })}
       </select>
     </div>

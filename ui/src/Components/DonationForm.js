@@ -30,7 +30,7 @@ function DonationForm({ refresh }) {
 
           <Select
             title="Tip"
-            options={["hrana", "ljekovi", "igračke", "vet. troškovi"]}
+            options={["hrana", "ljekovi", "igračke"]}
             setValue={(value) => setData({ ...data, type: value })}
             chosenValue={data.type}
           />

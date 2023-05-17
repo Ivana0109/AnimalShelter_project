@@ -38,6 +38,7 @@ function Card({ item, refresh }) {
       <div> Opis: {item.description}</div>
       <div> Posvojen: {item.adopted ? "Udomljen" : "Nije udomljen"}</div>
       <div> Čipiran: {item.chip ? "Da" : "Ne"}</div>
+      <div>Datum pregleda: {new Date(item.date).toLocaleDateString()}</div>
       <div className={styles.buttons}>
         {!item.adopted && (
           <button

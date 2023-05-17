@@ -7,7 +7,6 @@ function Input({ setValue, title, type, value, error }) {
       <div className={styles.content}>
         <label>{title}: </label>
         <input
-          required
           className={styles.input}
           type={type}
           placeholder={type === "text" ? undefined : "Please enter amount"}
