@@ -1,0 +1,19 @@
+.h2 {
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 60px;
+  gap: 20px;
+  width: 620px;
+  background-color: rgb(0, 0, 0, 0.3);
+  color: white;
+  border: 1px solid rgb(213, 169, 10);
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  padding: 10px;
+
+  border-radius: 7px;
+  background-color: rgb(230, 148, 26, 0.6);
+  border: rgb(105, 70, 51) solid 2px;
+}
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255, 0.9);
+  outline: none;
+  border: none;
+  color: black;
+  border: 1px solid yellowgreen;
+}
+.input:hover {
+  background-color: white;
+  outline: none;
+}
+.error {
+  color: rgb(13, 62, 13);
+  font-style: italic;
+}

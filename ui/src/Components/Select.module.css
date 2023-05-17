@@ -1,0 +1,26 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: white;
+  background-color: rgb(230, 148, 26, 0.6);
+  border: rgb(105, 70, 51) solid 2px;
+  border-radius: 7px;
+
+  padding: 10px;
+}
+
+select {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 30px;
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255, 0.9);
+
+  border: 1px solid yellowgreen;
+  outline: none;
+}
